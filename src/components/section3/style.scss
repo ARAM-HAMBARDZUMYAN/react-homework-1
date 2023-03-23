@@ -1,0 +1,23 @@
+.flex-menu1{
+   background-color: #f1f1f1;
+   padding: 0 100px;
+}
+.flex-menu1 h3{
+  text-align: center;
+  padding: 80px 20px;
+}
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-container1 > div {
+   
+    width: 300px;
+    margin: 10px;
+    text-align: left; 
+  }
+  .flex-container1 > div h3{
+    padding: 20px 20px
+  }

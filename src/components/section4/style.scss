@@ -1,0 +1,30 @@
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-container2 > div {
+    width: 500px;
+    margin: 10px;
+    text-align: left; 
+  }
+  .flex-container2 > div > h3{
+    font-size: 23px;
+  }
+  .section4 h2{
+    text-align: center;
+    margin: 50px;
+  }
+  .section4_buttondiv{
+   padding:50px 100px;
+   margin: 50px;
+   background-color: #f1f1f1;
+   width: 1400px;
+  }
+  .section4_buttondiv button {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    right: 200px;
+  }
