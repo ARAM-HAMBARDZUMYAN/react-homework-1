@@ -1,23 +1,37 @@
-.flex-menu1{
-   background-color: #f1f1f1;
-   padding: 0 100px;
+.P-reasons-section {
+  background-color : #dfe1e7;
+  padding          : 35px 0;
+
+  .P-reasons-title {
+    h3 {
+      text-align : center;
+
+    }
+  }
+
+  .P-box {
+    padding       : 10px;
+    border-radius : 12px;
+    margin        : 15px;
+    width         : calc(25% - 30px);
+
+    h3 {
+      font-size : 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size : 16px;
+    }
+
+    i {
+      font-size : 40px;
+      color     : #0055CC;
+    }
+  }
+
+  .P-reasons-list {
+    display   : flex;
+    flex-wrap : wrap;
+  }
 }
-.flex-menu1 h3{
-  text-align: center;
-  padding: 80px 20px;
-}
-.flex-container1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .flex-container1 > div {
-   
-    width: 300px;
-    margin: 10px;
-    text-align: left; 
-  }
-  .flex-container1 > div h3{
-    padding: 20px 20px
-  }

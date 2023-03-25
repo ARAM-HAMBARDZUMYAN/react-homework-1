@@ -1,17 +1,35 @@
-.flex-container2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.P-section-xbox {
+ 
+  padding          : 35px 0;
+
+  .P-section-title {
+    h3 {
+      text-align : center;
+
+    }
   }
-  
-  .flex-container2 > div {
-    width: 500px;
-    margin: 10px;
-    text-align: left; 
+
+  .P-xbox {
+    padding       : 10px;
+    border-radius : 12px;
+    margin        : 15px;
+    width         : calc(50% - 30px);
+
+    h3 {
+      font-size : 20px;
+    }
+
+    p {
+      font-size : 16px;
+    }
+
   }
-  .flex-container2 > div > h3{
-    font-size: 23px;
+
+  .P-section-list {
+    display   : flex;
+    flex-wrap : wrap;
   }
+}
   .section4 h2{
     text-align: center;
     margin: 50px;
